@@ -1,0 +1,19 @@
+{
+  "name": "streamlit-proxy",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Christoffer Artmann",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "http-proxy-middleware": "^3.0.3",
+    "tiny-typescript-logger": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
